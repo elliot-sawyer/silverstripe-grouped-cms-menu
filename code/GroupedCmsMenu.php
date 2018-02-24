@@ -1,4 +1,13 @@
 <?php
+namespace Symbiote\GroupedCmsMenu;
+
+use SilverStripe\Core\Extension;
+use SilverStripe\View\Requirements;
+use SilverStripe\ORM\ArrayList;
+use SilverStripe\Core\Config\Config;
+use SilverStripe\ORM\GroupedList;
+use SilverStripe\View\ArrayData;
+use SilverStripe\ORM\FieldType\DBField;
 /**
  * Decorates left and main to provide a grouped/nested CMS menu.
  *
