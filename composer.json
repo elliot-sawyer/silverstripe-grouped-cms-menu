@@ -15,7 +15,7 @@
 		"email": "marcus@symbiote.com.au"
 	}],
 	"require": {
-		"silverstripe/framework": "^3.2"
+		"silverstripe/framework": "^4"
 	},
 	"extra": {
 		"installer-name": "grouped-cms-menu",
